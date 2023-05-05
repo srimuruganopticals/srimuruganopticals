@@ -1,11 +1,69 @@
 <html>
-<body>
-<div style="width:auto; height: 500px; display: flex; align-items:center; margin:auto; justify-content:center; text-align:center; font-size:30px;">
-This site is under maintenance.
-<br>
-Sri Murugan Opticals, Chennai 
-</br>
-Ph: 9940984051
-</div>
-</body>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            function openLink(key) {
+                switch (key) {
+                    case 1: //whatsapp
+                        window.open('https://wa.me/919940984051');break;
+                    case 2: //mail
+                        window.open('mailto:srimuruganopticals123@gmail.com');break;
+                    case 3: //fb
+                        window.open('https://www.facebook.com/murugan.kg.39');break;
+                    case 4: //instagram
+                        window.open('https://www.instagram.com/srimuruganopticals');break;
+                    case 5: //location
+                        window.open('https://goo.gl/maps/rA1tvKTbDtBeNGPu9');break;
+                    default:
+                        break;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="full_container">
+            <div class="heading">
+                <img src="assets/logo.png" alt="logo"/>
+                <div class="shop">
+                    <span class="shop_name">Sri Murugan Opticals<br></span>
+                    <span class="shop_address">Choolaimedu, Chennai - 600094</span>
+                </div>
+            </div>
+            <div class="dp_container">
+                <i><img class="dp" src="assets/dp.jpg" alt="dp"/></i>
+            </div>
+            <div class="details_container">
+                <div class="details">
+                    <div class="name">Murugan K G</div>
+                    <table class="social" onclick="openLink(1)">
+                        <td><img src="assets/whatsapp.png" alt="pic"/></td>
+                        <td><span>+91 9940984051</span></td>
+                    </table>
+                    <table class="social" onclick="openLink(2)">
+                        <td><img src="assets/mail.png" alt="pic"/></td>
+                        <td><span>srimuruganopticals123@gmail.com</span></td>
+                    </table>
+                    <table class="social" onclick="openLink(5)">
+                        <td><img src="assets/gmaps.png" alt="pic"/></td>
+                        <td><span>7/15, R.K. Complex, Anna nedumpathai,<br>Choolaimedu, Chennai, Tamil Nadu - 600094.</span></td>
+                    </table>
+                </div>
+                <div class="short_gallery">
+                    <img src="assets/pic1.jpg" alt="pic"/>
+                    <img src="assets/pic2.jpg" alt="pic"/>
+                    <img src="assets/pic3.jpg" alt="pic"/>
+                </div>
+            </div>
+            <div class="all_social">
+                <table>
+                    <tr><td>Follow us on:</td></tr>
+                    <tr><td>
+                        <img src="assets/fb.png" alt="pic" onclick="openLink(3)"/>
+                        <img src="assets/whatsapp.png" alt="pic" onclick="openLink(1)"/>
+                        <img src="assets/instagram.png" alt="pic" onclick="openLink(4)"/>
+                    </td></tr>
+                </table>
+            </div>
+        </div>
+    </body>
 </html>

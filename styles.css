@@ -1,0 +1,79 @@
+html, body {
+    /* height: 100%; */
+}
+.full_container{
+    width: 600px;
+    min-height: 700px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.heading{
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(255, 245, 232);
+    width: 100%;
+    display: inline-flex;
+}
+.shop{
+    margin: auto 0;
+    margin-left: -50px;
+}
+.shop_name{
+    font-size: 40px;
+    font-weight: 700;
+}
+.heading img{
+    height: 180px;
+}
+.shop_address{
+    font-weight: 100;
+    font-size: 20px;
+}
+.dp_container{
+    margin-top: -50px;
+    text-align: center;
+}
+.dp{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.details_container{
+    text-align: center;
+}
+.details{
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.details td span{
+    text-shadow: 1px 1px 2px rgb(226, 203, 208);
+}
+.name{
+    font-weight: 600;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.social{
+    margin: auto;
+    font-size: 20px;
+    cursor: pointer;
+}
+.social td img{
+    width: 40px;
+    height: 40px;
+}
+.short_gallery img{
+    width: 180px;
+    height: 180px;
+}
+.all_social table{
+    margin: auto;
+}
+.all_social table tr td{
+    text-align: center;
+    cursor: pointer;
+}
